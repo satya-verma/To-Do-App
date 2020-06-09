@@ -17,7 +17,7 @@ class App extends React.Component {
         const { tasks, textfield } = this.state;
         const newArr = [...tasks];
         newArr.push(textfield);
-        this.setState({ tasks: newArr, textfield:'' })
+        this.setState({ tasks: newArr })
 
     }
 
